@@ -8,6 +8,13 @@ Designed to use from single lithium batteries to 5S packs i.e. from 3.7V to 18V.
 Set the "battery" voltage, connect the charger and start the charging process. 
 Adjust the "battery" voltage up/down to test how the charger responds. Set max allowed "charge" current.
 
+A note on *S packs:
+A typical pack charger senses the voltage across each battery in the pack. This is not implemented inside
+but can be built as a pluggable add-on. One side plugs into the banana input of this electronic battery simulator, and the other side forms multiple voltage dividers, as many as the charger wants. Example
+
+<img src="img/multi-s-battery.png" width="200"/>
+
+
 ### Input voltage
 Input voltage (VCC): 12-24V. The max "battery" voltage one can set is ~3V below this. 
 
@@ -69,10 +76,9 @@ Heatsink is not shown on the render below
 
 ## Notes
 
-The Main surprise is that this thing is as usable as a general-purpose dummy load as an electronic battery itself.
+The Main surprise is that this thing is as usable as a general-purpose dummy load as much as an electronic battery itself.
 
-Despite PCB being sparsely populated, wires make the inside of the box very very crowded. Need to make the box deeper, +1-2-3 cm depth would not be noticeable, but 
-would make wire management easier.
+Despite PCB being sparsely populated, wires make the inside of the box very very crowded. Need to make the box deeper, +1-2-3 cm depth would not be noticeable but would make wire management easier.
 
 Make the cooling fan blow air on the heat sink along the fins.
 
