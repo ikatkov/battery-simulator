@@ -76,7 +76,9 @@ Heatsink is not shown on the render below
 
 ## Notes
 
-The Main surprise is that this thing is as usable as a general-purpose dummy load as much as an electronic battery itself.
+The main surprise is that this thing is as usable as a general-purpose dummy load as much as an electronic battery itself.
+
+Do not make daughter boards that have buttons or pots. Mount them separately, and connect them with wires. It is wobbly, the daughter board needs to be secured to a vertical panel, while the vertical panel needs to be removable by design. Total PITA, don't do it again.
 
 Despite PCB being sparsely populated, wires make the inside of the box very very crowded. Need to make the box deeper, +1-2-3 cm depth would not be noticeable but would make wire management easier.
 
