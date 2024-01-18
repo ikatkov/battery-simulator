@@ -13,7 +13,7 @@ green LED is lit.
 When the device simulates battery charging - the current is limited by both the internal charger circuitry and max allowed "charge" current. 
 The absolute max is ~2.3A When in "charge" mode the red LED is lit.
 
-A note on *S packs:
+A note on `*S` packs:
 A typical pack charger senses the voltage across each battery in the pack. This is not implemented inside
 but can be built as a pluggable add-on. One side plugs into the banana input of this electronic battery simulator, and the other side forms multiple voltage dividers, as many as the charger wants. Example
 
@@ -71,8 +71,7 @@ Do not exceed 30V input voltage, opamps will blow.
 
 [Kicad](kicad)
 
-[Enclosure](fusion360)
-
+[Enclosure, knobs](fusion360)
 
 [Notes on fabricating metal enclosures](Metal%20enclosure%20project%20box.md)
 
