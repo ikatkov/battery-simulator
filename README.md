@@ -5,8 +5,13 @@
 Useful for testing battery chargers. 
 Designed to use from single lithium batteries to 5S packs i.e. from 3.7V to 18V. Max charging current 2.3A 
 
-Set the "battery" voltage, connect the charger and start the charging process. 
-Adjust the "battery" voltage up/down to test how the charger responds. Set max allowed "charge" current.
+Set the "battery" voltage with coarse/fine voltage pots, connect the charger and start the charging process. 
+Adjust the "battery" voltage up/down to test how the charger responds. Set max allowed "charge" current with the current pot.
+
+This device simulates battery discharging, current is limited by 200 Ohm resistors i.e. 60-120mA. When in "discharge" mode the
+green LED is lit.
+When the device simulates battery charging - the current is limited by both the internal charger circuitry and max allowed "charge" current. 
+The absolute max is ~2.3A When in "charge" mode the red LED is lit.
 
 A note on *S packs:
 A typical pack charger senses the voltage across each battery in the pack. This is not implemented inside
@@ -73,6 +78,9 @@ Do not exceed 30V input voltage, opamps will blow.
 
 Heatsink is not shown on the render below
 ![](img/3d.png)
+
+
+<img src="img/result.jpg" width="400"/>
 
 ## Notes
 

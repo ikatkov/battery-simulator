@@ -1,6 +1,9 @@
 # How to make a project box
 
-Assembled from two metal U-shaped parts. Top and bottom. The top part sides overlap the bottom part sides.
+1mm thick sheet metal is good enough (rigid enough) for all reasonably sized project boxes.
+Harvest from any home appliance that has metal sides. 
+
+Assemble from two metal U-shaped parts. Top and bottom. The top part sides overlap the bottom part sides.
 The top and bottom parts are held together by two sheet metal screws on each side.
 The front and bottom panels are 3d printed plastic, with all the cutouts. 2mm thickness front, 1.5mm flanges
 They overlap metal parts hiding metal cut-off edge imperfections.
@@ -16,6 +19,11 @@ Use a sheet metal screw with a pilot hole to hold it together. Drill the hole on
 plastic-metal-metal-plastic.
 
 <img src="img/image-20240116181236229.png" width="100"/>
+
+
+# Result
+
+<img src="img/result.jpg" width="200"/>
 
 ## Metal cutting tips
 Align unfolded U-shaped parts together, in one long pattern. So that once it is cut, their width is the same. This width is the depth of the box. 
